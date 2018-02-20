@@ -1,14 +1,14 @@
 # FastAnnotationMultipleObjects
 This tool can be used to annotate large number of images (draw bounding boxes and assign label) in PASCAL VOC format very fast.
 Our tool is at least 2 times faster than LabelImg(https://github.com/tzutalin/labelImg) for images containing multiple objects per image. You can annotate around 1500 images per man day (8 hours).
-If your data set containg only one objrct per image, use our other tool FastAnnotationSingleObject https://github.com/udaypk/FastAnnotationSingleObject which is can be 10x faster than LabelImg.
+If your data set containg only one objrct per image, use our other tool FastAnnotationSingleObject https://github.com/udaypk/FastAnnotationSingleObject which is can be 10x faster than LabelImg (1000 images per man hour).
 
 
 1. Description: 
 	AnnotationToolMultipleObjects.exe should be used if your image set has multiple objects per image.  <br>
 		The tool automates many steps comapred to LableImg and other such tools. <br>
 		Number of clicks, assigning a tag and saving xml are all done automatically without any user intervention. <br>
-		If your image set has more than one object per image, use AnnotationToolSingleObject.exe which is much faster. https://github.com/udaypk/FastAnnotationSingleObject <br>
+		If your image set has only one object per image, use AnnotationToolSingleObject.exe which is much faster. https://github.com/udaypk/FastAnnotationSingleObject <br>
 2. Prerequisites and requirements:<br>
 	a. Install MATLAB 2017a MCRInstaller.exe <br>
 	   Windows http://ssd.mathworks.com/supportfiles/downloads/R2017a/deployment_files/R2017a/installers/win64/MCR_R2017a_win64_installer.exe <br>
